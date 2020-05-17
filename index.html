@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -5,13 +6,19 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Hangman</title>
+    <title></title>
 
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="images/favicon.png" />
   </head>
 
   <body>
+<label id="lives"></label>
+<br><br>
+<label>Please enter a letter:</label>
+<input type="text" id="guess">
+<br><br>
+<button onclick="checkGuess()">submit guess</button>
     <script src="script.js"></script>
   </body>
 </html>
